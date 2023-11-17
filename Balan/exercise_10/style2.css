@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: medium;
+}
+
+.container{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heading{
+    font-size: 40px;
+}
+
+.searchBox{
+    width: 40vw;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0px 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.searchBox input{
+    width: 80%;
+    height: 90%;
+    margin: auto 5px; 
+    border: 0;
+    outline: none;
+}
+
+.searchBtn{
+    width: 15px;
+   
+}
+
+.cardBox{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.card {
+    height: 440;
+    width: 340px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.card:hover{
+    bottom: 10px;
+}
+
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .card-author {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .card-image {
+    
+    margin: 10px;
+    /* width: 100; */
+  }
+
+.desc{
+   
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* Set the number of lines you want to display */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
